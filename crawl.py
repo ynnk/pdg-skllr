@@ -33,6 +33,10 @@ def to_padagraph(host, key, gid):
     
     profiles = shelve.open(DB_USERS_PATH)
 
+    
+    if bot.has_graph(gid)  :
+        bot.delete_graph(gid)
+
     if not bot.has_graph(gid) :
         
         print "\n * Create graph %s" % gid
@@ -103,7 +107,7 @@ def to_padagraph(host, key, gid):
             # skipping 
             follows = len(p['follows'])
             if follows > 1000  or follows == 1 :
-                print "skipping ",  k
+                print "skipping ",  k, len(p['follows'])
                 continue
                 
             for path, name in p['follows']:
