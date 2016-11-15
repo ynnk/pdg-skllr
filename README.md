@@ -2,6 +2,8 @@
 
 ## Built a `follow network`
 
+    $ pip install -r requirements.txt
+
 1. crawl website users
 2. create graphs on the followers
 
