@@ -1,5 +1,6 @@
 requests
 requests_cache
+pyquery 
 
 https://github.com/padagraph/botapi/archive/master.zip
 https://github.com/kodexlab/reliure/archive/master.zip
