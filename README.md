@@ -2,11 +2,13 @@
 
 ## Built a `follow network`
 
-### System requirements
+## System requirements
     
     $ pip install -r requirements.txt
     # if you get errors  installing python deps, re run pip command later
     $ sudo aptitude install libxml2-dev libxslt-dev zlib-dev
+
+## Crawl & graph
 
 1. crawl website users
 2. create graphs on the followers
