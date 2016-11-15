@@ -10,7 +10,7 @@ import argparse
 from pyquery import PyQuery as pq
 
 SEED_URL = "http://skiller.fr/profile/user/142"
-DB_USERS_PATH = 'users.shelve'
+DB_USERS_PATH = 'skllr.shelve'
 
 def infos():
     profiles = shelve.open(DB_USERS_PATH)
