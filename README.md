@@ -1,12 +1,13 @@
 # pdg-skllr
 
-crawl and built a `follow network`
+## Built a `follow network`
+
 1. crawl website users
 2. create graphs on the followers
 
-    $ python crawl.py --crawl --infos --host http://padagraph.io --key `cat ../key.txt` --gid skiller
+    $ python crawl.py --crawl --infos --host http://padagraph.io --key `cat ../key.txt` --gid skllr
 
-3. Visualize data 
+## Visualize data 
 
 ![network](https://github.com/ynnk/pdg-skllr/blob/master/s1.png?raw=true)
-http://padagraph.io/graph/skiller
+http://padagraph.io/graph/skllr
